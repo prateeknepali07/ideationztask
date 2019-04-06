@@ -1,33 +1,77 @@
-.App {
+body {
+  color: Teal;
+}
+
+#clientimage {
+  background: rgba(0, 0, 0, 0.5);
   text-align: center;
+  color: #fff;
+  max-width: 250px;
+  width: 100%;
+  border-radius: 50%;
+  height: 250px;
+  display: block;
+  border: 2px solid #999999;
+  background-color: #e6e6e6;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#clientheading {
+  font-size: 41px;
+  font-weight: bold;
+  color: dodgerblue;
+  position: centerclassName= "container";
+}
+#clientdiscription {
+  font-size: 25px;
+  font-weight: bolder;
+  font-style: italic;
+  position: center;
+}
+#h2clientext {
+  font-size: 45px;
+  color: Dodgerblue;
+  font-style: oblique;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* #clientalks {
+  font-size: 12px;
+  color: teal;
+  font-style: darkslategray;
+  font-family: "serif";
+} */
+
+#clientdiscription {
+  font-size: 15px;
+  color: #3366cc;
+  font-style: italic;
+  font-family: "serif";
+}
+/* #social_icons {
+  padding: 0.5em;
+  font-size: 1.2em;
+} */
+
+/* td a + a {
+  padding-left: 3em;
+} */
+
+i {
+  display: inline-block;
+  margin: 0 10px 0 0;
 }
 
-.App-link {
-  color: #61dafb;
+#logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 126px;
+  margin-top: 6px;
+  float: none;
+  max-height: 54%;
+  margin-bottom: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer {
+  font-style: italic;
+  font-size: 25px;
+  font-family: Calibri;
 }
