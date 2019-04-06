@@ -16,7 +16,7 @@ export default class clientinfo extends Component {
             isn't this as important to you it is to me?"
           </h4>
           <div className="row" style={{ margin: "40px" }}>
-            <div className="col s4">
+            <div className="col s12 m4 12">
               <img
                 className="responsive-img"
                 id="clientimage"
@@ -24,7 +24,7 @@ export default class clientinfo extends Component {
                 //style={{ width: "40%", height: "185px" }}
               />
             </div>
-            <div className="col s4">
+            <div className="col s12 m4 12">
               <img
                 className="responsive-img"
                 id="clientimage"
@@ -32,7 +32,7 @@ export default class clientinfo extends Component {
                 //style={{ width: "30%", height: "185px" }}
               />
             </div>
-            <div className="col s4">
+            <div className="col  s12 m4 12">
               <img
                 className="responsive-img"
                 id="clientimage"

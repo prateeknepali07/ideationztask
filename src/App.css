@@ -13,6 +13,7 @@ body {
   display: block;
   border: 2px solid #999999;
   background-color: #e6e6e6;
+  margin-bottom: 10px;
 }
 
 #clientheading {
@@ -74,4 +75,44 @@ i {
   font-style: italic;
   font-size: 25px;
   font-family: Calibri;
+}
+
+#hero {
+  background-image: url("../src/components/images/images22.jpg");
+  background-size: cover;
+  background-position: 0 0;
+  position: relative;
+  bottom: 0;
+  height: 90vh;
+  z-index: -20;
+}
+
+#hero-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+}
+
+#hero1 {
+  background-image: url("../src/components/images/image222.jpg");
+  background-size: cover;
+  background-position: 0 600px;
+  position: relative;
+  bottom: 0;
+  height: 90vh;
+  z-index: -0.1;
+}
+#hero1-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -0.1;
+  height: 90vh;
 }
